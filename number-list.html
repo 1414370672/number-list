@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Number List</title>
+    </head>
+    <body>
+        <h2>Number List Generator:</h2>
+        <ul id="demo"></ul>
+    <script>
+    var text = "";
+    var i;
+    for (i = 1; i <= 100; i++){
+        text += "<li>The number is <strong>" + i + " </strong><li>";
+    }
+    document.getElementById("demo").innerHTML = text;
+    </script>
+    </body>
+</html>
